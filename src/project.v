@@ -14,7 +14,6 @@ module tt_um_moss_display (
 
   // ── Sprite / ROM parameters (update to match gif_compressor.py) ──────────────
   localparam TARGET_SIZE  = 64;    // sprite pixels per side (power of 2)
-  localparam MAX_FRAMES   = 4;     // animation frames (power of 2)
   localparam IDX_BITS     = 2;     // bits per pixel index (= NUM_COLORS.bit_length())
   localparam NUM_COLORS   = 2;     // content colours (BG_IDX = NUM_COLORS)
 
