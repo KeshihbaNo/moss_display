@@ -12,7 +12,7 @@ module gif_lut_0 (
 );
   always @(*) begin
     case (color_idx)
-      2'd0: {r, g, b} = 6'b11_11_01;  // RGB8: 220,237,84
+      2'd0: {r, g, b} = 6'b10_11_01;  // RGB8: 220,237,84
       2'd1: {r, g, b} = 6'b10_10_01;  // RGB8: 141,159,76
       2'd2: {r, g, b} = 6'b11_00_11;  // Background (transparent/magenta)
       default: {r, g, b} = 6'b00_00_00;
