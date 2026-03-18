@@ -6,7 +6,7 @@
 
 `default_nettype none
 
-module tt_um_audio (
+module audio_generator (
     input  wire clk,
     input  wire rst_n,
     input  wire new_sample,  // pulse once per scanline (pix_x == 0)
