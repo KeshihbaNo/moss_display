@@ -1,34 +1,7 @@
-/*
- * tt_um_gif_display.v
- *
- * VGA display of two user-selectable animated GIF sprites on a dynamic
- * scrolling-rainbow background, with PCM audio playback.
- *
- * Inputs:
- *   ui_in[0]  – GIF slot select  (0 = GIF 0, 1 = GIF 1)
- *   ui_in[1]  – Mute audio       (0 = sound on, 1 = mute)
- *
- * Outputs:
- *   uo_out    – TinyVGA PMOD  {hsync, B[0], G[0], R[0], vsync, B[1], G[1], R[1]}
- *   uio_out[7]– Audio PWM
- *
- * ── HOW TO USE ────────────────────────────────────────────────────────────────
- * 1. Run gif_compressor.py (GIF_SLOT=0) on your first GIF  → src/gif_lut_0.v, src/gif_rom_0.v
- * 2. Run gif_compressor.py (GIF_SLOT=1) on your second GIF → src/gif_lut_1.v, src/gif_rom_1.v
- * 3. Run wav_to_sound.py on your WAV file                  → src/tt_um_audio.v
- * 4. Update the localparams below to match your gif_compressor.py settings.
- * 5. Add all generated .v files to source_files in info.yaml.
- *
- * ── VERILOG PARAMETERS (must match gif_compressor.py settings) ────────────────
- *   TARGET_SIZE : sprite width/height in pixels (must equal python TARGET_SIZE)
- *   MAX_FRAMES  : animation frames per GIF      (must equal python MAX_FRAMES)
- *   IDX_BITS    : bits per pixel index          (printed by gif_compressor.py)
- *   NUM_COLORS  : content colours per GIF       (must equal python NUM_COLORS)
- */
 
 `default_nettype none
 
-module tt_um_gif_display (
+module tt_um_moss_display (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
