@@ -20,7 +20,7 @@ project:
     - "hvsync_generator.v"
     - "gif_lut_0.v"
     - "gif_rom_0.v"
-    - "tt_um_audio.v"
+    - "audio_generator.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
