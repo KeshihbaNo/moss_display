@@ -184,7 +184,7 @@ module tt_um_gif_display (
   // new_sample fires once per scanline so the audio module advances one ROM entry.
   wire new_sample = (pix_x == 10'd0);
 
-  tt_um_audio audio_mod (
+  audio_generator audio_mod (
       .clk        (clk),
       .rst_n      (rst_n),
       .new_sample (new_sample),
