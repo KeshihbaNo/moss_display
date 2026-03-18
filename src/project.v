@@ -46,7 +46,7 @@ module tt_um_moss_display (
   assign uio_oe  = 8'h80;
 
   // Suppress unused-signal warnings
-  wire _unused = &{ena, uio_in, ui_in[7:2]};
+    wire _unused = &{ena, uio_in, ui_in[7:2], ui_in[0]};
 
   // ── VGA sync generator ────────────────────────────────────────────────────────
   hvsync_generator hvsync_gen (
@@ -90,15 +90,19 @@ module tt_um_moss_display (
   // Muxing happens AFTER the LUTs, on the decoded RGB outputs.
   // (Feeding both LUTs the same muxed index would map the wrong palette when switching slots.)
   wire [1:0] pal_r0, pal_g0, pal_b0;
-  wire [1:0] pal_r1, pal_g1, pal_b1;
+  //wire [1:0] pal_r1, pal_g1, pal_b1;
 
   gif_lut_0 lut0 (.color_idx(pix_idx_0), .r(pal_r0), .g(pal_g0), .b(pal_b0));
   //gif_lut_1 lut1 (.color_idx(pix_idx_1), .r(pal_r1), .g(pal_g1), .b(pal_b1));
 
   // Select the active slot's decoded colour outputs
-  wire [1:0] pal_r = ui_in[0] ? pal_r1 : pal_r0;
-  wire [1:0] pal_g = ui_in[0] ? pal_g1 : pal_g0;
-  wire [1:0] pal_b = ui_in[0] ? pal_b1 : pal_b0;
+  //wire [1:0] pal_r = ui_in[0] ? pal_r1 : pal_r0;
+  //wire [1:0] pal_g = ui_in[0] ? pal_g1 : pal_g0;
+  //wire [1:0] pal_b = ui_in[0] ? pal_b1 : pal_b0;
+
+  wire [1:0] pal_r = pal_r0;
+  wire [1:0] pal_g = pal_g0;
+  wire [1:0] pal_b = pal_b0;
 
   // Select active pixel index (used only for the background transparency check below)
   //wire [IDX_BITS-1:0] pix_idx = ui_in[0] ? pix_idx_1 : pix_idx_0;
