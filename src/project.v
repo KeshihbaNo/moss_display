@@ -183,7 +183,8 @@ module tt_um_moss_display (
         frame_count <= frame_count + 8'd1;
         // Advance animation frame every 8 VGA frames (≈7 fps at 60 Hz VGA)
         if (frame_count[2:0] == 3'b111)
-          gif_frame <= (gif_frame == MAX_FRAMES - 1) ? {FRAME_BITS{1'b0}} : gif_frame + 1'd1;
+          //gif_frame <= (gif_frame == MAX_FRAMES - 1) ? {FRAME_BITS{1'b0}} : gif_frame + 1'd1;
+            gif_frame <= (gif_frame == 2'd3) ? {FRAME_BITS{1'b0}} : gif_frame + 1'd1;
       end
 
       // Pixel output: blank during sync periods
