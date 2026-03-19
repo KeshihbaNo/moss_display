@@ -15,11 +15,11 @@ The sprite ROM stores 4 animation frames at 64×64 pixels, scaled 4× and center
 
 ### Source GIF
 
-![Original GIF](jump_sequence.gif)
+<img src="jump_sequence.gif" width="300"/>
 
 ### VGA Output
 
-![VGA output](vga_output.png)
+<img src="vga_output.png" width="300"/>
 
 ## How to test
 
