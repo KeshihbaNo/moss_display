@@ -36,4 +36,4 @@ Special thanks to **swisschips** for making this project possible.
 
 ### Honorary Moss
 
-![Moss](MOSS_SMOL.png)
+<img src="MOSS_SMOL.png" width="400"/>
