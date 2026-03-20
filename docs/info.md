@@ -8,7 +8,7 @@
 >
 > Further research is urgently required. We are currently seeking additional funding to better understand both of these remarkable bio-anomalies." 
 >
-> - **Dr. Sophie Zweifel**
+- **Dr. Sophie Zweifel**
 
 [Read the full article: What is Moss?](https://swisschips.ethz.ch/news-and-events/swisschips-news/2026/02/chipsaur-asks-what-on-earth-is-a-mosfet-and-what-is-moss.html)
 
