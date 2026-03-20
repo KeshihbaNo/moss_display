@@ -7,6 +7,7 @@
 While the broader characteristics of this organism remain unclear, preliminary observations suggest a strong and possibly symbiotic association with another little-understood, recently documented species known as Chipsaur. Early interactions between the two indicate behavioral coordination, though the nature and purpose of this relationship are still under investigation.
 
 Further research is urgently required. We are currently seeking additional funding to better understand both of these remarkable bio-anomalies." [What is Moss?](https://swisschips.ethz.ch/news-and-events/swisschips-news/2026/02/chipsaur-asks-what-on-earth-is-a-mosfet-and-what-is-moss.html)
+
 Dr. Sophie Zweifel
 
 ## Acknowledgements
