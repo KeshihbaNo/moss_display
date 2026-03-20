@@ -1,6 +1,6 @@
 # Story of Moss
 
-## Who is Moss?
+## What is Moss?
 
 "Moss is a newly identified species of potentially sentient Fluffulus Hoppi enigmatica bryophyta. She is, to date, the only recorded specimen of her kind, and researchers have yet to determine her origins, ecological role, or underlying biology. What is known is that she is undeniably adorable: predominantly green, equipped with several antennae whose function remains a mystery, and capable of communicating exclusively through a series of soft “wiwiiwiiwiii!” vocalizations. She has been observed to possess four small feet; however, their practical function remains unclear, as she has thus far only been seen using them to jump in place.
 
