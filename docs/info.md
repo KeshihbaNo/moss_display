@@ -1,16 +1,16 @@
-# Story of Moss
+# The story of Moss
 
-## What is Moss?
+## Specimen Profile: Fluffulus Hoppi (aka "Moss")
 
-"Moss is a newly identified species of potentially sentient Fluffulus Hoppi enigmatica bryophyta. She is, to date, the only recorded specimen of her kind, and researchers have yet to determine her origins, ecological role, or underlying biology. What is known is that she is undeniably adorable: predominantly green, equipped with several antennae whose function remains a mystery, and capable of communicating exclusively through a series of soft “wiwiiwiiwiii!” vocalizations. She has been observed to possess four small feet; however, their practical function remains unclear, as she has thus far only been seen using them to jump in place.
+> "Moss is a newly identified species of potentially sentient Fluffulus Hoppi enigmatica bryophyta. She is, to date, the only recorded specimen of her kind, and researchers have yet to determine her origins, ecological role, or underlying biology. What is known is that she is undeniably adorable: predominantly green, equipped with several antennae whose function remains a mystery, and capable of communicating exclusively through a series of soft “wiwiiwiiwiii!” vocalizations. She has been observed to possess four small feet; however, their practical function remains unclear, as she has thus far only been seen using them to jump in place.
+>
+> While the broader characteristics of this organism remain unclear, preliminary observations suggest a strong and possibly symbiotic association with another little-understood, recently documented species known as Chipsaur. Early interactions between the two indicate behavioral coordination, though the nature and purpose of this relationship are still under investigation.
+>
+> Further research is urgently required. We are currently seeking additional funding to better understand both of these remarkable bio-anomalies." 
+>
+> - **Dr. Sophie Zweifel**
 
-While the broader characteristics of this organism remain unclear, preliminary observations suggest a strong and possibly symbiotic association with another little-understood, recently documented species known as Chipsaur. Early interactions between the two indicate behavioral coordination, though the nature and purpose of this relationship are still under investigation.
-
-Further research is urgently required. We are currently seeking additional funding to better understand both of these remarkable bio-anomalies." 
-
-Dr. Sophie Zweifel
-
-[What is Moss?](https://swisschips.ethz.ch/news-and-events/swisschips-news/2026/02/chipsaur-asks-what-on-earth-is-a-mosfet-and-what-is-moss.html)
+[Read the full article: What is Moss?](https://swisschips.ethz.ch/news-and-events/swisschips-news/2026/02/chipsaur-asks-what-on-earth-is-a-mosfet-and-what-is-moss.html)
 
 ## Acknowledgements
 
@@ -20,7 +20,11 @@ Special thanks to **swisschips** for making this project possible. [SwissChips](
 
 <img src="MOSS_SMOL.png" width="400"/>
 
+---
+
 # MOSS Media Player
+
+The chip brings Moss to life by continuously looping her animation and vocalizations directly from hardware memory.
 
 ## How it works
 
